@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.nav-tabs .nav-link.active {
+  color: var(--bs-nav-tabs-link-active-color);
+  background-color: #f4f4f4 !important;
+  border-color: #f4f4f4 !important;
+  font-size: large;
+  font-weight: bold;
+}
+
+.nav-tabs .nav-link {
+  color: var(--bs-nav-tabs-link-active-color);
+  background-color: #f4f4f4 !important;
+  border-color: #f4f4f4 !important;
+  font-size: large;
+}
+
+.box {
+  border-radius: 1px;
+  margin-top: 1rem;
+  width: 100%;
+  height: 150px;
+  padding: 10px 10px 10px 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  transition: linear all 0.4s;
+  cursor: pointer;
+}
+.SpecialCapitalLists {
+  padding-top: 3%;
+}
+
+.container {
+  position: relative;
+  /* max-width: 800px; */
+  margin: 0 auto;
+}
+
+.container img {
+  vertical-align: middle;
+}
+
+.container .content {
+  position: absolute;
+  bottom: 0;
+  background: #746753; /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 97%;
+  padding: 20px;
+}
